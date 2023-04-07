@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+:root{
+    --main-color: #000000;
+    --second-color: #f6f6f6;
+    --third-color: #e0d100;
+    --hover-color: #272727;
+    --title-font: 'Krona One', sans-serif;
+    --text-font: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.cabecalho {
+    padding: 3% 0% 0% 22%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-size: 18px; 
+    font-family: var(--text-font);
+    font-weight: 600;
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+
+body {
+   /* height: 100vh; */
+   box-sizing: border-box;
+   background-color: var(--main-color); 
+   color: var(--second-color);
+
+}
+
+.show {
+    padding: 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+.destaquetitulo {
+    color: var(--third-color);
+}
+
+.show__display {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}
+
+.show__heading {
+    font-size: 28px;
+    font-family: var(--title-font);
+}
+
+.show__paragraph {
+   font-size: 18px; 
+   font-family: var(--text-font);
+
+}
+
+.show__buttons{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.show__links {
+    font-family: var(--title-font);
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.show__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 180px;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 18px;
+    padding: 10px ;
+    font-family: var(--text-font);
+    text-decoration: none;
+    color: var(--second-color);
+    font-weight: 600;
+    border: 1px solid var(--third-color);
+}
+
+.show__box:hover {
+    background-color:var(--hover-color);
+}
+
+.rodape{
+    color:var(--main-color);
+    background-color: var(--third-color);
+    padding: 20px;
+    text-align: center;
+    font-size: 16px; 
+    font-family: var(--text-font);
+}
