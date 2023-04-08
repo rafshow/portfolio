@@ -120,3 +120,25 @@ body {
     font-size: 1rem; 
     font-family: var(--text-font);
 }
+
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .show{
+        padding: 10%;
+    }
+
+    .show__display{
+        width: auto;
+    }
+    
+    .show{
+        flex-direction: column-reverse;
+    }
+    
+}
